@@ -23,15 +23,15 @@
             [<a class="hdr" href="giuseppe_congiu_bio.txt"><b>Short Bio</b></a>]
         </p>
         <p>
-            <a class="hdr" href="{{ site.baseurl }}/index"><b>HOME</b></a><br>
-            <a class="hdr" href="{{ site.baseurl }}/publications"><b>PUBLICATIONS</b></a><br>
+            <a class="hdr" href="{{ site.baseurl }}/index"><b>Home</b></a><br>
+            <a class="hdr" href="{{ site.baseurl }}/publications"><b>Publications</b></a><br>
+            <a class="hdr" href="{{ site.github.owner_url }}"><b>Github</b></a><br>
         </p>
         <ul>
           {% if site.show_downloads %}
             <li class="download"><a class="buttons" href="{{ site.github.zip_url }}">Download ZIP</a></li>
             <li class="download"><a class="buttons" href="{{ site.github.tar_url }}">Download TAR</a></li>
           {% endif %}
-          <li><a class="buttons github" href="{{ site.github.repository_url }}">View On GitHub</a></li>
         </ul>
 
         {% if site.github.is_project_page %}
@@ -49,9 +49,6 @@
         {{ content }}
       </section>
 
-      <footer>
-        <p><small>Hosted on <a href="https://pages.github.com">GitHub Pages</a> using the Dinky theme</small></p>
-      </footer>
     </div>
     <!--[if !IE]><script>fixScale(document);</script><![endif]-->
   </body>
