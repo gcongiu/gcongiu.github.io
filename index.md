@@ -8,9 +8,9 @@ Before ANL I also worked in industry, at Xyratex and Seagate, while persuing
 my Ph.D. in computer science at the University of Mainz in Germany.
 
 During my years at Xyratex and Seagate I was involved in several EU funded
-Exascale Computing projects such as [DEEP-ER](www.deep-projects.eu),
-[SAGE](https://www.sagestorage.eu) and [EsiWace](www.esiwace.eu). A common
-theme for all these projects was the improvement of I/O performance for
+Exascale Computing projects such as [DEEP-ER](https://www.deep-projects.eu),
+[SAGE](https://www.sagestorage.eu) and [EsiWace](https://www.esiwace.eu). A
+common theme for all these projects was the improvement of I/O performance for
 scientific workloads. This was achieved, in part, by re-engineering existing
 I/O middlewares and libraries. In DEEP-ER this resulted into the extension of
 the MPI-IO hints mechanism to take advantage of non-volatile memory devices
@@ -19,9 +19,9 @@ storage layer between main memory and the parallel file system that could be
 used as burst buffer for checkpoint operations.
 
 At Argonne National Laboratory I was involved in the development of new features
-for the [MPICH Project](www.mpich.org), implementation of the MPI standard. This
-included the integration and support of new memory technologies (e.g. HBM) and
-GPU accelerators.
+for the [MPICH Project](https://www.mpich.org), implementation of the MPI
+standard. This included the integration and support of new memory technologies
+(e.g. HBM) and GPU accelerators.
 
 Currently, I am involved in the [PAPI Project](https://icl.utk.edu/papi/). PAPI
 is a software library allowing users to tap into the hardware performance
