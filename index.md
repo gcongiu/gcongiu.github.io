@@ -1,6 +1,6 @@
 ## About Me
 
-I am a Research Scientist working in the Performance Group at Innovative
+I am a Research Scientist working in the Performance group at Innovative
 Computing Laboratory (ICL), University of Tennessee Knoxville. Before joining
 ICL in July 2022 I was a Postdoctoral Fellow at Argonne National Laboratory
 (ANL), where I worked in the Programming Models and Runtime Systems group.
@@ -11,7 +11,7 @@ During my years at Xyratex and Seagate I was involved in several EU funded
 Exascale Computing projects such as [DEEP-ER](www.deep-projects.eu),
 [SAGE](https://www.sagestorage.eu) and [EsiWace](www.esiwace.eu). A common
 theme for all these projects was the improvement of I/O performance for
-scientific workloads. This was achieved, in part, by reingegneering existing
+scientific workloads. This was achieved, in part, by re-engineering existing
 I/O middlewares and libraries. In DEEP-ER this resulted into the extension of
 the MPI-IO hints mechanism to take advantage of non-volatile memory devices
 locally attached to compute nodes in a HPC cluster, effectively adding a new
