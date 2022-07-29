@@ -1,0 +1,206 @@
+\documentclass[a4paper,10pt]{article}
+
+%A Few Useful Packages
+\usepackage{marvosym}
+\usepackage{fontspec} 					%for loading fonts
+\usepackage{xunicode,xltxtra,url,parskip} 	%other packages for formatting
+\RequirePackage{color,graphicx}
+\usepackage[big]{layaureo} 				%better formatting of the A4 page
+\usepackage{supertabular} 				%for Grades
+\usepackage{titlesec}					%custom \section
+
+%Setup hyperref package, and colours for links
+\usepackage{hyperref}
+\usepackage{array, booktabs}
+\usepackage{longtable, tabu}
+\usepackage[table]{xcolor}
+\usepackage{ragged2e}
+
+\definecolor{linkcolour}{rgb}{0,0.2,0.6}
+\hypersetup{colorlinks,breaklinks,urlcolor=linkcolour, linkcolor=linkcolour}
+\usepackage{longtable}
+
+%FONTS
+\defaultfontfeatures{Mapping=tex-text}
+\setmainfont[
+SmallCapsFont = Fontin-SmallCaps.otf,
+BoldFont = Fontin-Bold.otf,
+ItalicFont = Fontin-Italic.otf
+]
+{Fontin.otf}
+
+\titleformat{\section}{\Large\scshape\raggedright}{}{0em}{}[\titlerule]
+\titlespacing{\section}{0pt}{3pt}{3pt}
+
+%Italian hyphenation for the word: ''corporations''
+\hyphenation{im-pre-se}
+
+%-------------WATERMARK TEST [**not part of a CV**]---------------
+\usepackage[absolute]{textpos}
+
+\setlength{\TPHorizModule}{30mm}
+\setlength{\TPVertModule}{\TPHorizModule}
+\textblockorigin{2mm}{0.65\paperheight}
+\setlength{\parindent}{0pt}
+
+%--------------------BEGIN DOCUMENT----------------------
+\begin{document}
+
+\pagestyle{empty} % non-numbered pages
+
+\font\fb=''[cmr10]'' %for use with \LaTeX command
+
+%--------------------TITLE-------------
+\par{\centering
+	{\Huge Giuseppe \textsc{Congiu}
+}\bigskip\par}
+
+%--------------------SECTIONS-----------------------------------
+%Section: Personal Data
+\section{Contact Information}
+
+\begin{tabular}{l}
+    Phone: +39 (350) 166-2487 \\
+    Email: gcongiu@icl.utk.edu \\
+    Webpage: \url{https://gcongiu.github.io} \\
+    Linkedin: \url{https://www.linkedin.com/in/giuseppecongiu81}
+\end{tabular}
+
+%Section: Education
+\section{Education}
+\begin{tabular}{rp{11cm}}
+\textsc{July 2018} & Ph.D. in \textsc{Computer Science}\\
+          & Johannes Gutenberg University of Mainz (Germany) \\
+          & Magna cum Laude \\
+          & Dissertation: "Improving I/O Performance in HPC Through Guided\\
+          & Prefetching and Non-Volatile Memory Devices"\\
+          & \small Advisors: Prof. Dr. Andr\'e Brinkmann (JGU), Dr. Sai Narasimhamurthy (Seagate)\\
+
+\textsc{December} 2008 & M.S. in \textsc{Electrical \& Electronic Engineering}, \\
+              & \textbf{University of Cagliari}\\
+              & Thesis: ``Cell BE: Performance Analysis of the Element\\
+              & Interconnect Bus and Development of an Alternative Packed\\
+              & Switched Solution'' \\
+              & \small Advisor: Prof. Luigi \textsc{Raffo}\\
+
+\textsc{September} 2005 & B.S. in \textsc{Electrical \& Electronic Engineering} \\
+               & \textbf{University of Cagliari}\\
+\end{tabular}
+
+\section{Appointments}
+\begin{tabular}{rp{11cm}}
+\textsc{2021 - present}& Research Scientist at \textsc{Innovative Computing Laboratory, University of Tennessee Knoxville} TN, USA \\
+         & \emph{Performance Analysis and Modelling} \\
+
+\textsc{2017 - 2020}& Postdoctoral Fellow at \textsc{Argonne National Laboratory} IL, USA \\
+         & \emph{Programming Models and Runtime Systems}\\
+
+\textsc{2013 - 2017} & Research Engineer at \textsc{Seagate System UK} Ltd, Havant \\
+         & \emph{High Performance Parallel I/O}\\
+
+\textsc{2011 - 2013} & Early Stage Researcher at \textsc{Xyratex} Ltd, Havant \\
+         & \emph{Distributed I/O Caching}\\
+
+\textsc{2009 - 2010} & Software Developer at \textsc{Sardegna Ricerche \& IBM Italy}, Pula \\
+         & \emph{Parallel Programmer}
+\end{tabular}
+
+%\section{Skills}
+%\begin{tabular}{rp{11cm}}
+%\textsc{Technical} & Parallel and distributed programming models (MPI, OpenMP, CUDA, HIP, threading) \\
+%          & Memory technologies and consistency models \\
+%          & C/C++ programming \\
+%          & Scripting (Python, Bash, Perl) \\
+%          & Software development tools (git, GNU autotools) \\
+%          & Network technologies (IB, RoCE) \\
+%          & Distributed Parallel I/O and storage technologies \\
+%
+%\textsc{Soft}      & English language \\
+%          & Technical writing \\
+%          & Teamwork \\
+%\end{tabular}
+
+\section{Scholarships and certificates}
+\begin{tabular}{rp{11cm}}
+\textsc{February} 2016 & Marie Curie Initial Training Network Certificate \\
+          & \footnotesize{Ph.D. program directly funded by the European Commission.}
+\end{tabular}
+
+\section{Professional Activities}
+\subsection*{Projects}
+\begin{tabular}{p{1.45cm}p{11cm}}
+    2021 & PAPI: \url{https://www.icl.utk.edu/papi} \\
+    2017 & MPICH: \url{https://www.mpich.org} \\
+    2016 & SAGE Project: \url{http://www.sagestorage.eu} \\
+    2013 & DEEP-ER (Dynamic Exascale Entry Platform - Extended Reach) Project: \url{https://www.deep-projects.eu} \\
+    2011 & SCALUS (SCALing by mean of Ubiquitous Storage) Project \\
+    2009 & MIACell (Medical Image Analysis on Cell broadband engine) Project \\
+\end{tabular}
+
+\subsection*{Technical Reviewer for International Journals}
+\begin{tabular}{p{1.45cm}p{11cm}}
+    2021 & Elsevier Journal of Parallel and Distributed Computing (JPDC) \\
+    2019 & Concurrency and Computation: Practices and Experience (CPE) \\
+    2018 & Elsevier Journal of Parallel Computing (PARCO) \\
+    2017 & Elsevier Journal of Parallel and Distributed Computing (JPDC)\\
+    2017 & IEEE Transaction on Parallel and Distributed Systems (TPDS)\\
+\end{tabular}
+
+\subsection*{Technical Reviewer for International Conferences and Workshops}
+\begin{tabular}{p{1.45cm}p{11cm}}
+    2022 & IEEE Hot Interconnect Symposium (HOTI) \\
+    2020 & IEEE/ACM International Symposium on Cluster, Cloud and Internet Computing (CCGRID)\\
+    2020 & IEEE International Workshop on Accelerators and Hybrid Exascale Systems (AsHES)\\
+    2019 & IEEE International Workshop on Accelerator Programming Using Directives (WACCPD)\\
+    2019 & IEEE Conference on Data Science and Systems (DSS)\\
+    2015-2016 & IEEE/ACM International Symposium on Cluster, Cloud and Grid Computing (CCGRID)\\
+\end{tabular}
+
+\subsection*{Program Committee Member}
+\begin{tabular}{p{1.45cm}p{11cm}}
+    2022 & Program Committee Member of the IEEE Hot Interconnect Symposium (HOTI) \\
+    2020 & Program Committee Member of the IEEE/ACM International Symposium on Cluster, Cloud and Internet Computing (CCGRID)\\
+    2020 & Program Committee Member of the IEEE International Workshop on Accelerators and Hybrid Exascale Systems (AsHES)\\
+    2019 & Program Committee Member of the IEEE International Workshop on Accelerator Programming Using Directives (WACCPD)\\
+    2019 & Program Committee Member of the IEEE Conference on Data Science and Systems (DSS)\\
+\end{tabular}
+
+\subsection*{Invited Talks}
+\begin{tabular}{p{1.45cm}p{11cm}}
+    2019 & The 9th IEEE International Workshop on Accelerators and Hybrid Exascale Systems: Evaluating the Impact of High Bandwidth Memory on MPI Communciation\\
+\end{tabular}
+
+\subsection*{Tutorials and Talks}
+\begin{tabular}{p{1.45cm}p{11cm}}
+    2022 & VI-HPS Tuning Workshop: PAPI (Performance API) Introduction \& Overview \\
+    2019 & Yearly Argonne MPI Tutorial: Hybrid Programming Models, MPI+Accelerators (GPUs) \\
+    2019 & National Center for Supercomputing Applications (NCSA), Petascale Institute: MPI Collectives, MPI Shared Memory and MPI+Accelerators\\
+\end{tabular}
+
+\section{Publications}
+\begin{tabular}{p{1.45cm}p{11cm}}
+        2018 & G. Congiu, P. Balaji, "Evaluating the Impact of High-Bandwidth Memory on MPI %
+        Communications" 2018 IEEE International Conference on Computing and Communications (ICCC), %
+        Chengdu China, 2018\\
+        2017 & G. Congiu, M. Grawinkel, F. Padua, J. Morse, T. Süß and A. Brinkmann, "MERCURY: %
+        A Transparent Guided I/O Framework for High Performance I/O Stacks" \textit{2017 IEEE %
+        Euromicro International Conference on Parallel, Distributed and Network-based Processing (PDP)}, %
+        St. Petersburg, 2017. doi: 10.1109/PDP.2017.83\\
+        2016 & G. Congiu, S. Narasimhamurthy, T. Süß and A. Brinkmann, "Improving Collective %
+        I/O Performance Using Non-volatile Memory Devices," \textit{2016 IEEE International Conference %
+        on Cluster Computing (CLUSTER)}, Taipei, 2016, pp. 120-129. %
+        doi: 10.1109/CLUSTER.2016.37\\
+        2014 & G. Congiu, M. Grawinkel, F. Padua, J. Morse, T. Süß and A. Brinkmann, "POSTER: %
+        Optimizing scientific file I/O patterns using advice based knowledge," \textit{2014 IEEE %
+        International Conference on Cluster Computing (CLUSTER)}, Madrid, 2014, pp. 282-283. %
+        doi: 10.1109/CLUSTER.2014.6968763\\
+        2012 & G. Congiu, M. Grawinkel, S. Narasimhamurthy and A. Brinkmann, "One Phase Commit: %
+        A Low Overhead Atomic Commitment Protocol for Scalable Metadata Services," \textit{2012 IEEE %
+        International Conference on Cluster Computing Workshops}, Beijing, 2012, pp. 16-24. %
+        doi: 10.1109/ClusterW.2012.16\\
+\end{tabular}
+
+\bibliographystyle{unsrt}
+\bibliography{bibliography.bib}
+\end{document}
+
