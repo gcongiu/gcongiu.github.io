@@ -2,7 +2,7 @@
 
 I am a Research Scientist working in the Performance group at Innovative
 Computing Laboratory (ICL), University of Tennessee Knoxville. Before joining
-ICL in July 2022 I was a Postdoctoral Fellow at Argonne National Laboratory
+ICL in July 2021 I was a Postdoctoral Fellow at Argonne National Laboratory
 (ANL), where I worked in the Programming Models and Runtime Systems group.
 Before ANL I also worked in industry, at Xyratex and Seagate, while persuing
 my Ph.D. in computer science at the University of Mainz in Germany.
