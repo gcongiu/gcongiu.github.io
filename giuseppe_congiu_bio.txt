@@ -1,11 +1,10 @@
 Dr. Giuseppe Congiu is a Research Scientist at Innovative Computing Laboratory
-(ICL), University of Tennessee Knoxville. Before joining ICL he was a
-Postdoctoral Fellow at Argonne National Laboratory (ANL) where he worked on
-Parallel Programming Models and Runtime Systems for large scale Supercomputing
-Clusters. He holds a Ph.D. in Computer Science from the Johannes Gutenber
-Univerisity Mainz, Germany, and B.Sc. and M.Sc. in Electrical and Electronic
-Engineering from the University of Cagliari, Italy. From 2011 to 2013 he was
-the recipient of a Marie Curie Initial Training Network scholarship from the
-European Commission. He has published several papers in the context of
-distributed I/O and runtime systems and given several talks on the subject
-matter.
+(ICL), University of Tennessee Knoxville, where he works on performance measurement
+and modelling. Before joining ICL he was a Postdoctoral Fellow at Argonne National
+Laboratory (ANL), where he worked on Programming Models and Runtime Systems for
+large scale Supercomputing Clusters. He holds a Ph.D. in Computer Science from the
+Johannes Gutenberg University of Mainz, Germany, and B.Sc. and M.Sc. in Electrical
+and Electronic Engineering from the University of Cagliari, Italy. Over the past
+decade he has worked on several exascale projects (EU and US funded) and focused on
+different aspects of the software stack and implementation, ranging from distributed
+and parallel I/O to communication libraries.
