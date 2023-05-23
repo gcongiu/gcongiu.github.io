@@ -20,7 +20,7 @@ used as burst buffer for checkpoint operations.
 
 At Argonne National Laboratory I was involved in the development of new features
 for the [MPICH Project](https://www.mpich.org), implementation of the MPI
-standard. This included the integration and support of new memory technologies
+standard. These included the integration and support of new memory technologies
 (e.g. HBM) and GPU accelerators.
 
 Currently, I am involved in the [PAPI Project](https://icl.utk.edu/papi/). PAPI
