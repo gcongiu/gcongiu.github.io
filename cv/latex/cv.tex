@@ -2,12 +2,12 @@
 
 %A Few Useful Packages
 \usepackage{marvosym}
-\usepackage{fontspec} 					%for loading fonts
-\usepackage{xunicode,xltxtra,url,parskip} 	%other packages for formatting
+\usepackage{fontspec} %for loading fonts
+\usepackage{xunicode,xltxtra,url,parskip} %other packages for formatting
 \RequirePackage{color,graphicx}
-\usepackage[big]{layaureo} 				%better formatting of the A4 page
-\usepackage{supertabular} 				%for Grades
-\usepackage{titlesec}					%custom \section
+\usepackage[big]{layaureo} %better formatting of the A4 page
+\usepackage{supertabular} %for Grades
+\usepackage{titlesec} %custom \section
 
 %Setup hyperref package, and colours for links
 \usepackage{hyperref}
@@ -60,50 +60,102 @@ ItalicFont = Fontin-Italic.otf
 \section{Contact Information}
 
 \begin{tabular}{l}
-%    Phone: +39 (350) 166-2487 \\
-    Email: gcongiu@icl.utk.edu \\
-    Webpage: \url{https://gcongiu.github.io} \\
-    Linkedin: \url{https://www.linkedin.com/in/giuseppecongiu81}
+    Phone: +39 (350) 166-2487\\
+    Email: giuseppe.congiu81@gmail.com\\
+%    Webpage: \url{https://gcongiu.github.io}\\
+%    Linkedin: \url{https://www.linkedin.com/in/giuseppecongiu81}
 \end{tabular}
 
 %Section: Education
 \section{Education}
 \begin{tabular}{rp{11cm}}
-\textsc{July 2018} & Ph.D. in \textsc{Computer Science}\\
-          & \textbf{Johannes Gutenberg University of Mainz} \\
-          & Magna cum Laude \\
+\textsc{7/12/2018} & Ph.D. in \textsc{Computer Science}\\
+          & \textbf{Johannes Gutenberg University of Mainz}\\
+          & Mark: Magna cum Laude\\
           & Dissertation: "Improving I/O Performance in HPC Through Guided\\
           & Prefetching and Non-Volatile Memory Devices"\\
           & \small Advisors: Prof. Dr. Andr\'e Brinkmann (JGU), Dr. Sai Narasimhamurthy (Seagate)\\
 
-\textsc{December} 2008 & M.S. in \textsc{Electrical \& Electronic Engineering}, \\
-              & \textbf{University of Cagliari}\\
-              & Thesis: ``Cell BE: Performance Analysis of the Element\\
-              & Interconnect Bus and Development of an Alternative Packed\\
-              & Switched Solution'' \\
-              & \small Advisor: Prof. Luigi \textsc{Raffo}\\
+\textsc{12/17/2008} & M.S. in \textsc{Electrical \& Electronic Engineering},\\
+          & \textbf{University of Cagliari}\\
+          & Mark: 110/110\\
+          & Thesis: ``Cell BE: Performance Analysis of the Element\\
+          & Interconnect Bus and Development of an Alternative Packed\\
+          & Switched Solution''\\
+          & \small Advisor: Prof. Luigi \textsc{Raffo}\\
 
-\textsc{September} 2005 & B.S. in \textsc{Electrical \& Electronic Engineering} \\
-               & \textbf{University of Cagliari}\\
+\textsc{10/24/2005} & B.S. in \textsc{Electrical \& Electronic Engineering} \\
+          & \textbf{University of Cagliari}\\
+          & Mark: 99/110\\
 \end{tabular}
 
 \section{Appointments}
-\begin{tabular}{rp{11cm}}
-\textsc{2021 - present} & Research Scientist at \textsc{Innovative Computing Laboratory, University of Tennessee Knoxville} TN, USA \\
-         & \emph{Performance Analysis and Modelling} \\
+%\begin{tabular}{rp{11cm}}
+\begin{longtable}{rp{11cm}}
+\textsc{01/08/2024 - present} & Senior Software Engineer at
+    \textsc{NVIDIA, 2788 San Tomas Expressway, Santa Clara, CA 95051}\\
+         & \textbf{\emph{Job Description:}}\\
+         & \emph{\begin{itemize}
+            \item Design, implement and maintain highly-optimized communication runtimes for Deep Learning frameworks (e.g. NCCL for TensorFlow/Pytorch) and HPC programming interfaces (e.g. UCX for MPI/OpenSHMEM) on GPU clusters.
+            \item Participating in and contributing to parallel programming interface specifications like MPI/OpenSHMEM.
+            \item Design, implement and maintain system software that enables interactions among GPUs and interactions between GPUs and other system components.
+            \item Creating proof-of-concepts to evaluate and motivate extensions in programming models, new designs in runtimes and new features in hardware.
+         \end{itemize}}\\
+         & \emph{\textbf{Projects:} NVIDIA Collective Communication Library, NCCL}\\
 
-\textsc{2017 - 2020} & Postdoctoral Fellow at \textsc{Argonne National Laboratory} IL, USA \\
-         & \emph{Programming Models and Runtime Systems}\\
+\textsc{07/19/2021 - 01/05/2024} & Research Scientist at \textsc{Innovative Computing Laboratory, University of Tennessee, Suite 203 Claxton, 1122 Volunteer Blvd, Knoxville, TN 37996, USA}\\
+         & \textbf{\emph{Job Description:}}\\
+         & \emph{\begin{itemize}
+             \item Work on the design and development of high-quality software (C/C++) for performance monitoring of new and advanced hardware and software technologies.
+             \item Collaborate with industry partners, including AMD, HPE, IBM, Intel, NVIDIA and research institutions.
+             \item Develop and coordinate test plans, use test suites, and perform tests on software solutions.
+             \item Utilize Continuous Testing with Jenkins and other systems.
+             \item Implement and maintain build processes using Spack, CMake, and Makefile.
+             \item Integrate software with other systems, test interfaces, and manage version control.
+             \item Maintain and contribute to the development of user and developer documentation.
+             \item Solve bug issues, engage in trouble shooting, and interact with the project community.
+         \end{itemize}}\\
+         & \emph{\textbf{Projects:} Performance API, PAPI}\\
+         & \emph{\textbf{Achievements:} designed and developed software components to support performance monitoring on exascale systems, like Aurora and Frontier.}\\
 
-\textsc{2014 - 2017} & Research Engineer at \textsc{Seagate System UK} Ltd, Havant \\
-         & \emph{High Performance Parallel I/O}\\
+\textsc{09/25/2017 - 05/29/2020} & Postdoctoral Fellow at \textsc{Argonne National Laboratory}, 9700 S Cass Ave, Lemont, IL 60439, USA\\
+         & \textbf{\emph{Job Description:}}\\
+         & \emph{\begin{itemize}
+             \item Work with top researchers on state of the art communication libraries and runtime systems for high-performance computing.
+             \item Design and develop advanced software solutions (in C/C++ and Fortran) for communication and runtime libraries.
+             \item Test and evaluate software designs, pin point performance bottlenecks and address them.
+             \item Find and fix bug issues, write documentation and technical reports.
+             \item Publish result and present them to the community at international venues.
+             \item Contribute to the research community by serving in Programme Committees of top conferences and reviewing papers for top conferences and journals.
+             \item Write training material and present it at Argonne training events (Argonne annual MPI training, Petascale Computing Institute).
+         \end{itemize}}\\
+         & \emph{\textbf{Projects:} MPICH (high-performance Message Passing Interface implementation)}\\
+         & \emph{\textbf{Achievements:} designed and developed new software components to support exascale hardware and memory technologies in systems like Aurora and Frontier.}\\
 
-\textsc{2011 - 2013} & Early Stage Researcher at \textsc{Xyratex} Ltd, Havant \\
-         & \emph{Distributed I/O Caching}\\
+\textsc{02/18/2011 - 05/15/2017} & Research Engineer at \textsc{Seagate System} Ltd, Springtown Industrial Estate, Londonderry BT48 0LY\\
+         & \textbf{\emph{Job Description:}}\\
+         & \emph{\begin{itemize}
+             \item Design and develop new software libraries and middlewares (in C/C++) for high-performance data storage systems.
+             \item Understand state of the art storage and file system technologies, find solutions to alleviate the increasing gap beween storage and memory performance.
+             \item Work on European Commission funded exascale research projects.
+             \item Collaborate with project partners from industry and academia across Europe.
+             \item Work with system architects to explore new designs in storage hardware and software.
+         \end{itemize}}\\
+         & \emph{\textbf{Projects:} SCALUS (SCALing by mean of Ubiquitous Storage), DEEP-ER (Dynamic Exascale Entry Platform - Extended Reach), SAGE (Percipient StorAGE for exascale data centric computing) and ESiWACE (centre of Excellence in Simulation of Weather And Climate in Europe).}\\
+         & \emph{\textbf{Achievements:} Ph.D. in computer science from University of Mainz while conducting research for Seagate.}\\
 
-\textsc{2009 - 2010} & Software Developer at \textsc{Sardegna Ricerche \& IBM Italy}, Pula \\
-         & \emph{Parallel Programming}
-\end{tabular}
+\textsc{01/20/2009 - 09/01/2010} & Software Developer at \textsc{Sardegna Ricerche, Localita' Piscina Manna, Edificio 2, 09050}, Pula, Italy\\
+         & \textbf{\emph{Job Description:}}\\
+         & \emph{\begin{itemize}
+             \item Design and develop parallel image processing code for the IBM Cell Broadband Engine architecture (CellBE).
+             \item Work with other engineers to profile software performance and find bottlenecks through monitoring tools (e.g., oprofile).
+             \item Leverage OpenMP parallelism and IBM libspe library to write code for the synergistic processing elements of the Cell processor.
+             \item Document code and write technical reports.
+         \end{itemize}}\\
+         & \emph{\textbf{Projects:} MIACell (Medical Imaging on Cell broadband engine).}\\
+         & \emph{\textbf{Achievements:} Developed scale-up prototype of medical imaging software able to help patologists in the identification of carcenogenic cells in paptest slides.}\\
+\end{longtable}
+%\end{tabular}
 
 %\section{Skills}
 %\begin{tabular}{rp{11cm}}
@@ -122,93 +174,93 @@ ItalicFont = Fontin-Italic.otf
 
 \section{Scholarships and certificates}
 \begin{tabular}{rp{11cm}}
-\textsc{February} 2016 & Marie Curie Initial Training Network Certificate \\
+\textsc{2011} & Marie Curie Initial Training Network Certificate \\
           & \footnotesize{European Commission funded Ph.D. programme}
 \end{tabular}
 
-\section{Professional Activities}
-\subsection*{Projects}
-\begin{tabular}{rp{11cm}}
-\textsc{2021 - present} & PAPI: \url{https://www.icl.utk.edu/papi} \\
-\textsc{2017 - 2020}    & MPICH: \url{https://www.mpich.org} \\
-\textsc{2016 - 2017}    & SAGE: \url{http://www.sagestorage.eu} \\
-\textsc{2016 - 2017}    & EsiWace: \url{https://www.esiwace.eu} \\
-\textsc{2013 - 2017}    & DEEP-ER: \url{https://www.deep-projects.eu} \\
-\textsc{2011 - 2013}    & SCALUS (SCALing by mean of Ubiquitous Storage) \\
-\textsc{2009 - 2010}    & MIACell (Medical Image Analysis on Cell broadband engine) \\
-\end{tabular}
+%\section{Professional Activities}
+%\subsection*{Projects}
+%\begin{tabular}{rp{11cm}}
+%\textsc{2021 - present} & PAPI: \url{https://www.icl.utk.edu/papi} \\
+%\textsc{2017 - 2020}    & MPICH: \url{https://www.mpich.org} \\
+%\textsc{2016 - 2017}    & SAGE: \url{http://www.sagestorage.eu} \\
+%\textsc{2016 - 2017}    & EsiWace: \url{https://www.esiwace.eu} \\
+%\textsc{2013 - 2017}    & DEEP-ER: \url{https://www.deep-projects.eu} \\
+%\textsc{2011 - 2013}    & SCALUS (SCALing by mean of Ubiquitous Storage) \\
+%\textsc{2009 - 2010}    & MIACell (Medical Image Analysis on Cell broadband engine) \\
+%\end{tabular}
 
-\subsection*{Technical Reviewer for International Journals}
-\begin{tabular}{rp{11cm}}
-    2022 & IEEE Micro \\
-    2021 & Elsevier Journal of Parallel and Distributed Computing (JPDC) \\
-    2019 & Concurrency and Computation: Practices and Experience (CPE) \\
-    2018 & Elsevier Journal of Parallel Computing (PARCO) \\
-    2017 & Elsevier Journal of Parallel and Distributed Computing (JPDC)\\
-    2017 & IEEE Transaction on Parallel and Distributed Systems (TPDS)\\
-\end{tabular}
-
-\subsection*{Technical Reviewer for International Conferences and Workshops}
-\begin{tabular}{rp{11cm}}
-    2023 & IEEE Hot Interconnects Symposium (HOTI) \\
-    2023 & IEEE/ACM International Conference for High Performance Computing,
-    Networking, Storage and Analysis (SC) \\
-    2022 & IEEE Hot Interconnects Symposium (HOTI) \\
-    2020 & IEEE/ACM International Symposium on Cluster, Cloud and Internet Computing (CCGRID)\\
-    2020 & IEEE International Workshop on Accelerators and Hybrid Exascale Systems (AsHES)\\
-    2019 & IEEE International Workshop on Accelerator Programming Using Directives (WACCPD)\\
-    2019 & IEEE Conference on Data Science and Systems (DSS)\\
-    2016 & IEEE/ACM International Symposium on Cluster, Cloud and Grid Computing (CCGRID)\\
-    2015 & IEEE/ACM International Symposium on Cluster, Cloud and Grid Computing (CCGRID)\\
-\end{tabular}
-
-\subsection*{Program Committee Member}
-\begin{tabular}{rp{11cm}}
-    2023 & Program Committee Member of the IEEE Hot Interconnects Symposium (HOTI) \\
-    2023 & Program Committee Member of the IEEE/ACM International Conference for High Performance Computing,
-    Networking, Storage and Analysis (SC) \\
-    2022 & Program Committee Member of the IEEE Hot Interconnects Symposium (HOTI) \\
-    2020 & Program Committee Member of the IEEE/ACM International Symposium on Cluster, Cloud and Internet Computing (CCGRID)\\
-    2020 & Program Committee Member of the IEEE International Workshop on Accelerators and Hybrid Exascale Systems (AsHES)\\
-    2019 & Program Committee Member of the IEEE International Workshop on Accelerator Programming Using Directives (WACCPD)\\
-    2019 & Program Committee Member of the IEEE Conference on Data Science and Systems (DSS)\\
-\end{tabular}
-
-\subsection*{Invited Talks}
-\begin{tabular}{rp{11cm}}
-    2019 & The 9th IEEE International Workshop on Accelerators and Hybrid Exascale Systems: Evaluating the Impact of High Bandwidth Memory on MPI Communciation\\
-\end{tabular}
-
-\subsection*{Tutorials and Talks}
-\begin{tabular}{rp{11cm}}
-    2022 & VI-HPS Tuning Workshop: PAPI (Performance API) Introduction \& Overview \\
-    2019 & Yearly Argonne MPI Tutorial: Hybrid Programming Models, MPI+Accelerators (GPUs) \\
-    2019 & National Center for Supercomputing Applications (NCSA), Petascale Institute: MPI Collectives, MPI Shared Memory and MPI+Accelerators\\
-\end{tabular}
-
-\section{Publications}
-\begin{tabular}{rp{11cm}}
-        2018 & G. Congiu, P. Balaji, "Evaluating the Impact of High-Bandwidth Memory on MPI %
-        Communications" 2018 IEEE International Conference on Computing and Communications (ICCC), %
-        Chengdu China, 2018\\
-        2017 & G. Congiu, M. Grawinkel, F. Padua, J. Morse, T. Süß and A. Brinkmann, "MERCURY: %
-        A Transparent Guided I/O Framework for High Performance I/O Stacks" \textit{2017 IEEE %
-        Euromicro International Conference on Parallel, Distributed and Network-based Processing (PDP)}, %
-        St. Petersburg, 2017. doi: 10.1109/PDP.2017.83\\
-        2016 & G. Congiu, S. Narasimhamurthy, T. Süß and A. Brinkmann, "Improving Collective %
-        I/O Performance Using Non-volatile Memory Devices," \textit{2016 IEEE International Conference %
-        on Cluster Computing (CLUSTER)}, Taipei, 2016, pp. 120-129. %
-        doi: 10.1109/CLUSTER.2016.37\\
-        2014 & G. Congiu, M. Grawinkel, F. Padua, J. Morse, T. Süß and A. Brinkmann, "POSTER: %
-        Optimizing scientific file I/O patterns using advice based knowledge," \textit{2014 IEEE %
-        International Conference on Cluster Computing (CLUSTER)}, Madrid, 2014, pp. 282-283. %
-        doi: 10.1109/CLUSTER.2014.6968763\\
-        2012 & G. Congiu, M. Grawinkel, S. Narasimhamurthy and A. Brinkmann, "One Phase Commit: %
-        A Low Overhead Atomic Commitment Protocol for Scalable Metadata Services," \textit{2012 IEEE %
-        International Conference on Cluster Computing Workshops}, Beijing, 2012, pp. 16-24. %
-        doi: 10.1109/ClusterW.2012.16\\
-\end{tabular}
-
-\bibliographystyle{unsrt}
-\bibliography{bibliography.bib}
+%\subsection*{Technical Reviewer for International Journals}
+%\begin{tabular}{rp{11cm}}
+%    2022 & IEEE Micro \\
+%    2021 & Elsevier Journal of Parallel and Distributed Computing (JPDC) \\
+%    2019 & Concurrency and Computation: Practices and Experience (CPE) \\
+%    2018 & Elsevier Journal of Parallel Computing (PARCO) \\
+%    2017 & Elsevier Journal of Parallel and Distributed Computing (JPDC)\\
+%    2017 & IEEE Transaction on Parallel and Distributed Systems (TPDS)\\
+%\end{tabular}
+%
+%\subsection*{Technical Reviewer for International Conferences and Workshops}
+%\begin{tabular}{rp{11cm}}
+%    2023 & IEEE Hot Interconnects Symposium (HOTI) \\
+%    2023 & IEEE/ACM International Conference for High Performance Computing,
+%    Networking, Storage and Analysis (SC) \\
+%    2022 & IEEE Hot Interconnects Symposium (HOTI) \\
+%    2020 & IEEE/ACM International Symposium on Cluster, Cloud and Internet Computing (CCGRID)\\
+%    2020 & IEEE International Workshop on Accelerators and Hybrid Exascale Systems (AsHES)\\
+%    2019 & IEEE International Workshop on Accelerator Programming Using Directives (WACCPD)\\
+%    2019 & IEEE Conference on Data Science and Systems (DSS)\\
+%    2016 & IEEE/ACM International Symposium on Cluster, Cloud and Grid Computing (CCGRID)\\
+%    2015 & IEEE/ACM International Symposium on Cluster, Cloud and Grid Computing (CCGRID)\\
+%\end{tabular}
+%
+%\subsection*{Program Committee Member}
+%\begin{tabular}{rp{11cm}}
+%    2023 & Program Committee Member of the IEEE Hot Interconnects Symposium (HOTI) \\
+%    2023 & Program Committee Member of the IEEE/ACM International Conference for High Performance Computing,
+%    Networking, Storage and Analysis (SC) \\
+%    2022 & Program Committee Member of the IEEE Hot Interconnects Symposium (HOTI) \\
+%    2020 & Program Committee Member of the IEEE/ACM International Symposium on Cluster, Cloud and Internet Computing (CCGRID)\\
+%    2020 & Program Committee Member of the IEEE International Workshop on Accelerators and Hybrid Exascale Systems (AsHES)\\
+%    2019 & Program Committee Member of the IEEE International Workshop on Accelerator Programming Using Directives (WACCPD)\\
+%    2019 & Program Committee Member of the IEEE Conference on Data Science and Systems (DSS)\\
+%\end{tabular}
+%
+%\subsection*{Invited Talks}
+%\begin{tabular}{rp{11cm}}
+%    2019 & The 9th IEEE International Workshop on Accelerators and Hybrid Exascale Systems: Evaluating the Impact of High Bandwidth Memory on MPI Communciation\\
+%\end{tabular}
+%
+%\subsection*{Tutorials and Talks}
+%\begin{tabular}{rp{11cm}}
+%    2022 & VI-HPS Tuning Workshop: PAPI (Performance API) Introduction \& Overview \\
+%    2019 & Yearly Argonne MPI Tutorial: Hybrid Programming Models, MPI+Accelerators (GPUs) \\
+%    2019 & National Center for Supercomputing Applications (NCSA), Petascale Institute: MPI Collectives, MPI Shared Memory and MPI+Accelerators\\
+%\end{tabular}
+%
+%\section{Publications}
+%\begin{tabular}{rp{11cm}}
+%        2018 & G. Congiu, P. Balaji, "Evaluating the Impact of High-Bandwidth Memory on MPI %
+%        Communications" 2018 IEEE International Conference on Computing and Communications (ICCC), %
+%        Chengdu China, 2018\\
+%        2017 & G. Congiu, M. Grawinkel, F. Padua, J. Morse, T. Süß and A. Brinkmann, "MERCURY: %
+%        A Transparent Guided I/O Framework for High Performance I/O Stacks" \textit{2017 IEEE %
+%        Euromicro International Conference on Parallel, Distributed and Network-based Processing (PDP)}, %
+%        St. Petersburg, 2017. doi: 10.1109/PDP.2017.83\\
+%        2016 & G. Congiu, S. Narasimhamurthy, T. Süß and A. Brinkmann, "Improving Collective %
+%        I/O Performance Using Non-volatile Memory Devices," \textit{2016 IEEE International Conference %
+%        on Cluster Computing (CLUSTER)}, Taipei, 2016, pp. 120-129. %
+%        doi: 10.1109/CLUSTER.2016.37\\
+%        2014 & G. Congiu, M. Grawinkel, F. Padua, J. Morse, T. Süß and A. Brinkmann, "POSTER: %
+%        Optimizing scientific file I/O patterns using advice based knowledge," \textit{2014 IEEE %
+%        International Conference on Cluster Computing (CLUSTER)}, Madrid, 2014, pp. 282-283. %
+%        doi: 10.1109/CLUSTER.2014.6968763\\
+%        2012 & G. Congiu, M. Grawinkel, S. Narasimhamurthy and A. Brinkmann, "One Phase Commit: %
+%        A Low Overhead Atomic Commitment Protocol for Scalable Metadata Services," \textit{2012 IEEE %
+%        International Conference on Cluster Computing Workshops}, Beijing, 2012, pp. 16-24. %
+%        doi: 10.1109/ClusterW.2012.16\\
+%\end{tabular}
+%
+%\bibliographystyle{unsrt}
+%\bibliography{bibliography.bib}
 \end{document}
